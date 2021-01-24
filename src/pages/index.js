@@ -258,7 +258,7 @@ const IndexPage = () => (
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
              <script src="https://kit.fontawesome.com/yourcode.js"></script>
         </helmet>
-        <div sx={{width:"100%", height:"auto",background: "linear-gradient(#fff,lightyellow,rgb(238, 238, 184))", fontSize: ['13px','15px','17px'], textAlign:'justify'}}>
+        <div sx={{breakpoints: ['420px', '840px', '1200px'],width:"100%", height:"auto",background: "linear-gradient(#fff,lightyellow,rgb(238, 238, 184))", fontSize: ['13px','15px','17px'], textAlign:'justify'}}>
 
         <div class="header" sx={header}>
             <img src={logo} sx={headerImg}/>
